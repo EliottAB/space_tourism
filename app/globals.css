@@ -13,3 +13,11 @@ body {
   overflow-x: hidden;
   font-family: 'Barlow Condensed';
 }
+
+.barlow{
+  font-family: "Barlow Condensed";
+}
+
+.bellefair{
+  font-family: "Bellefair";
+}

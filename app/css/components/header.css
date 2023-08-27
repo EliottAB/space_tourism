@@ -1,0 +1,47 @@
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5em 0 0 3.43em;
+}
+
+.logo{
+    width: 3em;
+    height: 3em;
+    margin-right: 4em;
+}
+
+.header-line{
+    position: relative;
+    left: 2em;
+    width: 3.044vw;
+    height: 0.06em;
+    background-color: rgba(250, 250, 250, .2515);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6em;
+    padding: 2.43em 10.43em 2.43em 7.68em;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.774227142333984px);
+    color: white;
+}
+
+.nav a{
+    height: 100%;
+    box-sizing: border-box;
+    font-weight: 400;
+    letter-spacing: 0.168em;
+}
+
+.selected-page{
+    border-bottom: 0.18em solid white;
+}
+
+.nav-index{
+    font-weight: 700;
+}
