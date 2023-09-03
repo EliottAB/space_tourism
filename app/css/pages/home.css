@@ -7,20 +7,6 @@
     padding: 0 10.3em 8.1em;
 }
 
-.background-image{
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    z-index: -1;
-}
-
-.background-image.tablet, .background-image.mobile{
-    display: none;
-}
-
 .presentation{
     display: flex;
     flex-direction: column;

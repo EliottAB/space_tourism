@@ -1,0 +1,14 @@
+.change-planet{
+    display: flex;
+    justify-content: space-between;
+    width: 17.81em;
+    height: 2.125em;
+    margin-bottom: 2.312em;
+}
+
+.change-planet button{
+    background-color: transparent;
+    border: none;
+    color: #D0D6F9;
+    cursor: pointer;
+}

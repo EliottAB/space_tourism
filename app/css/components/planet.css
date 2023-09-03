@@ -1,0 +1,71 @@
+.planet{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9.81em;
+    width: 100vw;
+    pointer-events: none;
+}
+
+.planet:nth-child(1){
+    opacity: 1;
+    display: flex;
+    pointer-events: all;
+}
+
+.planet img{
+    width: 27.81em;
+    height: 27.81em;
+    opacity: 0;
+    translate: 0;
+}
+
+.planet-content{
+    position: relative;
+    top: -1.5em;
+    width: 27.812em;
+    opacity: 0;
+    transition: opacity .8s, translate 1s;
+}
+
+.planet:nth-child(1) img{
+    opacity: 1;
+}
+
+.planet:nth-child(1) .planet-content{
+    opacity: 1;
+}
+
+
+.planet-name{
+    margin-bottom: 0.14em;
+    font-size: 6.25em;
+    font-weight: 400;
+}
+
+.planet-description{
+    font-size: 1.125em;
+    line-height: 2em;
+}
+
+.travel-details{
+    display: flex;
+    border-top: 1px #383B4B solid;
+    margin-top: 3.375em;
+    padding-top: 1.75em;
+}
+
+.travel-details p{
+    display: flex;
+    flex-direction: column;
+    gap: 0.428em;
+    width: 50%;
+    font-size: 1.75em;
+}
+
+.travel-details p span{
+    color: #D0D6F9;
+    font-size: 0.5em;
+    letter-spacing: 0.164em;
+}

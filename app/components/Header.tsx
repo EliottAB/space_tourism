@@ -11,7 +11,7 @@ export const Header = ({page}: {page: 'home' | 'destination' | 'crew' | 'technol
 
         <div className='header-line'></div>
 
-        <nav className='barlow'>
+        <nav className='barlow-c'>
             <Link href={"/"} className={page === "home" ? "selected-page" : ""}><span className='nav-index'>01</span> HOME</Link>
             <Link href={"/destination"} className={page === "destination" ? "selected-page" : ""}><span className='nav-index'>02</span> DESTINATION</Link>
             <Link href={"/crew"} className={page === "crew" ? "selected-page" : ""}><span className='nav-index'>03</span> CREW</Link>

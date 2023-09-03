@@ -1,0 +1,29 @@
+.destination-main{
+    min-height: calc(100vh - 16.5em);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4em 0;
+    color: white;
+}
+
+.destination-main>h1{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.28em;
+    font-size: 1.75em;
+    font-weight: 400;
+}
+
+.destination-main>h1 span {
+    margin-right: 1em;
+    font-weight: 700;
+    color: rgba(250, 250, 250, .25);
+}
+
+.planets{
+    display: flex;
+    width: 100vw;
+    height: 29.5em;
+}
